@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://destinique.io/sitemap.xml

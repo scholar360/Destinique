@@ -1,0 +1,11 @@
+## Pages
+- [Admin Panel - Destinique](/adminpanel): No description available
+- [Cosmic Profile - Destinique](/userprofile): No description available
+- [Cosmic Swipe - Destinique](/destiniqueswipe): Find your perfect match through 7 dimensions of compatibility.
+- [Dashboard - Destinique](/dashboard): View your Destinique stats and manage your account.
+- [Destinique - Discover Cosmic Connections](/landing): Browse profiles and find your cosmic match on Destinique.
+- [Destinique - Find Your Cosmic Match Through Ancient Wisdom](/home): Discover meaningful connections through multidimensional compatibility matching using Bazi, Vedic astrology, numerology, and more.
+- [Discover - Destinique](/discover): No description available
+- [Login - Destinique | Access Your Cosmic Connections](/login): Sign in to Destinique and continue your journey to find meaningful cosmic connections.
+- [Pricing - Destinique | Choose Your Plan](/pricing): Choose the perfect Destinique plan for your cosmic journey. Limited time promotion on all plans.
+- [Sign Up - Destinique | Find Your Cosmic Match](/signup): Create your Destinique account and discover meaningful connections through cosmic compatibility.
