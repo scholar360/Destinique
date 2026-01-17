@@ -11,29 +11,28 @@ const ProfileList = ({ onProfileClick }) => {
   const [error, setError] = useState(null);
 
   const fetchProfiles = async () => {
-    setLoading(true);
-    setError(null);
+  setLoading(true);
+  setError(null);
 
-    try {
-      // Fetch ALL profiles without limits
-      const { data, error: supabaseError } = await supabase
-        .from('profiles')
-        .select('*');
+  try {
+    // Fetch ALL profiles without limits
+    const { data, error: supabaseError } = await supabase
+      .from('profiles')
+      .select('*');
 
-      if (supabaseError) {
-        console.error("❌ [ProfileList] Supabase Error:", supabaseError);
-        throw supabaseError;
-      }
-
-      console.log(`Total profiles fetched: ${data?.length || 0}`);
-      setProfiles(data || []);
-    } catch (err) {
-      console.error("💥 [ProfileList] Exception:", err);
-      setError(err);
-    } finally {
-      setLoading(false);
+    if (supabaseError) {
+      console.error("❌ [ProfileList] Supabase Error:", supabaseError);
+      throw supabaseError;
     }
-  };
+
+    console.log(`Total profiles fetched: ${data?.length || 0}`);
+    setProfiles(data || []);
+  } catch (err) {
+    // ... error handling
+  } finally {
+    setLoading(false);
+  }
+};
 
   useEffect(() => {
     fetchProfiles();
