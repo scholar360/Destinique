@@ -17,6 +17,12 @@ import AdminRoute from '@/components/AdminRoute';
 import ProfileDetailView from '@/components/ProfileDetailView';
 import AdminPanel from '@/pages/AdminPanel';
 
+import SimpleTest from '@/pages/SimpleTest';
+
+// In your routes section, add:
+<Route path="/simple-test" element={<SimpleTest />} />
+
+
 function App() {
   return (
     <AuthProvider>
