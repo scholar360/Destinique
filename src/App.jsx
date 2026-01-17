@@ -36,6 +36,8 @@ function App() {
           
           <Route path="/profile/:id" element={<ProfileDetailView />} />
 
+          <Route path="/simple-test" element={<SimpleTest />} />
+          
           <Route
             path="/discover"
             element={
